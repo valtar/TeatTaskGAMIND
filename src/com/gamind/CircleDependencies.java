@@ -104,6 +104,8 @@ public class CircleDependencies{
     }
 
     public static void main(String[] args) {
+        int i = 1;
+        i++;
         Pair[] pairs = new Pair[] {
         new Pair(1,2),
         new Pair(2,1),
